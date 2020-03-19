@@ -1,0 +1,171 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[UTF8]{ctex}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://github.com/yyh14353191}{\Large 林镇坤}} & Email : \href{mailto:linzhk3@mail2.sysu.edu.cn}{linzhk3@mail2.sysu.edu.cn}\\
+  \href{https://github.com/yyh14353191}{https://github.com/yyh14353191} & Mobile : 159-191-72056 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {中山大学}{Guangzhou, China}
+      {理学学士。数据科学与计算机学院,信息与计算科学专业。校级优秀毕业生}{Aug. 2015 -- June. 2019}
+    \resumeSubheading
+      {中山大学}{Guangzhou, China}
+      {工科硕士。数据科学与计算机学院,计算机科学专业。研究方向：自然语言处理及人机对话}{Aug. 2019 -- Present}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {腾讯科技·企业发展事业群}{Shenzhen, China}
+      {产品策划实习}{May 2018 - June 2018}
+      \resumeItemListStart
+        \resumeItem{微信支付海外钱包项目}
+          {负责微信支付香港钱包项目落地。主要职责为完成香港用户微信支付工单处理，与香港金融管理局对接跟进FPS测试等项目落地事宜，以及调研香港第三方支付市场。}
+      \resumeItemListEnd
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {校内创业·中山大学闲置物品交易平台(从0到1)}{Guangzhou, China}
+      {创始人，团队leader及公关负责人}{May 2015 - Present}
+      \resumeItemListStart
+        \resumeItem{项目概要}
+          {中大闲置是中山大学由学生创立并独立运营的校内闲置物品交易平台，成立于2915年5月，是校内最大最具效率和安全的线上二手交易市场。项目旨在为校内师生提供“广义”的闲置物品处理方案。平台用户超2万，单学期发布商品数超1万。中大闲置的产品形式为公众号+移动端web+社群运营。公众号可搜索“中大闲置”、“中大闲置资源共享”。移动端网址为：\href{http://sysu-xianzhi.com/}{http://sysu-xianzhi.com/}}
+        \resumeItem{项目成立早期}
+          {个人工作为社群及公众号运营，公关宣传及用户增长。2015年至2016年（大一）为中大闲置快速增长期，产品形式仅有公众号+社群。创始团队无细致分工。}
+        \resumeItem{移动端web产品开发}
+          {主要负责产品功能设计，具体为BRD、MRD、PRD文档编写。2016年至2017年（大二）为中大闲置发展瓶颈期，主要体现为每日上传商品数量过多，推送制作时间成本过高，有赞、圈子集市等第三方平台服务存在安全隐患。团队用时6个月开发移动端web并于17年暑期完成产品部署（至今仍稳定运营）。产品特色为自动生成物品推送、学生邮箱认证及首页活窗。}
+        \resumeItem{产品商业化}
+          {本人全权负责产品商业化和团队资金来源。中大闲置主要盈利方式为公众号广告+自营校园文创产品。其中广告收入为0/15年、2k/16年、1w/17年。文创产品主要形式为校园棒球服售卖，17年共售2100件，销售额44w，利润17w。}
+        \resumeItem{奖项和荣誉}
+          {【赢在中大创业大赛】2017 优胜奖、【中山大学软件设计创新赛】2017 二等奖、【广东省创青春创业大赛】2018 公益创业组 二等奖、【广东省大学生创新创业训练计划】2017省级资助。}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{3项人工智能发明专利}
+      {基于语音识别的人工智能学习方法、一种基于手势控制的新型学习方法以及一种云-网-端架构下的人工智能学习终端系统及方法。}
+    \resumeSubItem{数学建模竞赛}
+      {2018美国大学生数学建模Honorable Mention(15\% ), 2017全国大学生数学建模竞赛省级三等奖}
+    \resumeSubItem{数据挖掘及程序设计竞赛}
+      {阿里巴巴天池文本分类对抗攻击大赛44/1175(rank 5 \%)，2016学院程序设计大赛三等奖}
+    \resumeSubItem{奖学金}
+      {2015-2016、2016-2017本科二等奖学金，2017-2018本科三等奖学金, 2019-2020研究生三等奖学金}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{技术}{:Python, C++, Pytorch（熟悉数据分析、深度学习和机器学习算法）}
+     \hfill
+     \textbf{产品}{: Xmind，visio ，Axure}    }
+     
+     \item{
+      \textbf{经验}{:对c2c和第三方支付有项目经验，对智能文本生成，人机对话等nlp方向有独立思考。进入\href{https://zhuanlan.zhihu.com/c_1145745033553563648}{知乎专栏}}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
